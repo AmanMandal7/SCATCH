@@ -13,7 +13,7 @@ const ownerSchema = mongoose.Schema({
         default: []
     },
     picture: String,
-    gstin: String
+    gstnu: String
 });
 
 module.exports = mongoose.model('owner', ownerSchema);
