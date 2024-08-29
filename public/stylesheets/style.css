@@ -1,0 +1,9 @@
+@font-face {
+    font-family: helvetica_now_display;
+    src: url(../fonts/HelveticaNowDisplay-Regular.ttf);
+  }
+
+
+  * {
+    font-family: helvetica_now_display;
+  }
