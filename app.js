@@ -7,7 +7,7 @@ const indexRouter = require('./routes/indexRouter');
 const ownersRouter = require('./routes/ownersRouter');
 const usersRouter = require('./routes/usersRouter');
 const productsRouter = require('./routes/productsRouter');
-require('dotenv').config();
+require("dotenv").config();
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')))
