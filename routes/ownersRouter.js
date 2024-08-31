@@ -21,6 +21,12 @@ if (process.env.NODE_ENV === 'development') {
     });
 }
 
+//Create Product route 
+router.get('/admin', async (req, res) => {
+    let success = ['Product has been created']
+    res.render('createproducts', {success})
+});
+
 //All other routes 
 router.get('/', async (req, res) => {
     res.send('Hey its working owner')
